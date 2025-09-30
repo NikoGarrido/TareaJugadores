@@ -43,7 +43,7 @@
                 })
                 
             }
-            datos("https://raw.githubusercontent.com/NikoGarrido/TareaJugadores/refs/heads/main/jugadores.json").catch((error) => console.error(error));
+            datos("").catch((error) => console.error(error));
 
             function goldechile(g){
                 var pelotitas = "";
@@ -63,20 +63,20 @@
 
             function estadoJugador(e){
                 if(e == "activo"){
-                    return "Estado actual: ✔️ "
+                    return "Estado: ✔️"
                 } else if (e == "retirado"){
-                    return "Estado actual: ❌ "
+                    return "Estado: ❌"
                 }
             }
 
             function añosActivo(a){
                 if(a == null){
-                    return "vigente"
+                    return "sigue vigente"
                 } else {
                     const inicio = a[0];
-                    const final = a[1];
+                    const fin = a[1];
                     const años = fin - inicio;
-                    return `Años activo: ${años}`
+                    return `Años activo: ${años} 🏆`
                 }
             }
         </script>

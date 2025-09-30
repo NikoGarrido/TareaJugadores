@@ -46,24 +46,24 @@
             datos("https://raw.githubusercontent.com/NikoGarrido/TareaJugadores/refs/heads/main/jugadores.json").catch((error) => console.error(error));
             
             function goldechile(g){
-            var pelotitas = "";
-            for(var x = 0; x < g; x++){
-                pelotitas += "⚽ "
+                var pelotitas = "";
+                for(var x = 0; x < g; x++){
+                    pelotitas += "⚽ "
+                }
+                return pelotitas;
             }
-            return pelotitas;
-        }
             
-        function partidos(p){
-            var estadios
-            for (var x= 0; x < p; x++){
-                estadios += "🏟️"
+            function partidos(p){
+                var estadios
+                for (var x= 0; x < p; x++){
+                    estadios += "🏟️"
+                }
+                return estadios;
             }
-            return estadios;
-        }
             
-        function estadoJugador(e){
-            if(e == "activo"){
-                return "Estado actual :✔️"
+            function estadoJugador(e){
+                if(e == "activo"){
+                    return "Estado actual :✔️"
             } else if(e == "retirado"){
                 return "Estado actual :❌"
             }

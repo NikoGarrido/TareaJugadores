@@ -21,7 +21,7 @@
     "partidos": 70,
     "fotos": "https://nikogarrido.github.io/TareaJugadores/Fotos/marcelosalas.jpg"
     "estado": "retirado"
-    "años activo": [1994-2007]
+    "años activo": [1994,2007]
   },
   {
     "chileno": "Iván Zamorano",
@@ -29,7 +29,7 @@
     "partidos": 69,
     "fotos": "https://nikogarrido.github.io/TareaJugadores/Fotos/zamorano.jpg"
     "estado": "retirado"
-    "años activo": [1987-2001]
+    "años activo": [1987,2001]
   },
   {
     "chileno": "Arturo Vidal",
@@ -45,7 +45,7 @@
     "partidos": 49,
     "fotos": "https://nikogarrido.github.io/TareaJugadores/Fotos/caszely.jpg"
     "estado": "retirado"
-    "años activo": [1969-1985]
+    "años activo": [1969-,1985]
   },
    {
     "chileno": "Leonel Sánchez",
@@ -53,7 +53,7 @@
     "partidos": 85,
     "fotos": "https://nikogarrido.github.io/TareaJugadores/Fotos/l.sanchez.jpg"
     "estado": "retirado"
-    "años activo": [1956-1968]
+    "años activo": [1956,1968]
   },
    {
     "chileno": "Jorge Aravena",
@@ -61,7 +61,7 @@
     "partidos": 37,
     "fotos": "https://nikogarrido.github.io/TareaJugadores/Fotos/Aravena.jpg"
     "estado": "retirado"
-    "años activo": [1983-1990]
+    "años activo": [1983,1990]
   },
    {
     "chileno": "Humberto Suazo",
@@ -77,6 +77,6 @@
     "partidos": 57,
     "fotos": "https://nikogarrido.github.io/TareaJugadores/Fotos/JCLetelier.png"
     "estado": "retirado"
-    "años activo": [1979-1989]
+    "años activo": [1979,1989]
   },
 ]

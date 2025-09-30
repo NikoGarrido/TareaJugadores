@@ -56,25 +56,25 @@
             function partidos(p){
                 var estadios = "";
                 for(var y = 0; y < p; y++){
-                    estadios += "🏟️"
+                    estadios += "🏟️ "
                 }
                 return estadios;
             }
 
             function estadoJugador(e){
                 if(e == "activo"){
-                    return "Estado actual: Vctivo✔️"
+                    return "Estado actual: activo✔️ "
                 } else if (e == "retirado"){
-                    return "Estado actual: Retirado❌"
+                    return "Estado actual: retirado❌ "
                 }
             }
 
             function añosActivo(a){
                 if(a == null){
-                    return "Vigente"
+                    return "vigente"
                 } else {
                     const inicio = a[0];
-                    const fin = a[1];
+                    const final = a[1];
                     const años = fin - inicio;
                     return `Años activo: ${años}`
                 }

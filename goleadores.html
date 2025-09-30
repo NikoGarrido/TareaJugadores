@@ -36,7 +36,7 @@
                         ${d.chileno} :
                         ${goldechile(d.goles)} :
                         ${partidos(d.partidos)} :
-                        ${estado(d.estado)} :
+                        ${estadoJugador(d.estado)} :
                         ${añosActivo(d["años activo"])} 
                       </p>
                 </div>`;
@@ -61,7 +61,7 @@
             return estadios;
         }
             
-        function estado(e){
+        function estadoJugador(e){
             if(e == "activo"){
                 return "Estado actual :✔️"
             } else if(e == "retirado"){

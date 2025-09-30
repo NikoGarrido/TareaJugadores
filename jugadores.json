@@ -3,7 +3,7 @@
     "chileno": "Alexis Sánchez",
     "goles": 51,
     "partidos": 166,
-    "fotos": "https://nikogarrido.github.io/TareaJugadores/Fotos/alexis.jpg"
+    "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/alexis.jpg"
     "estado": "Activo"
     "años activo": null
   },
@@ -11,7 +11,7 @@
     "chileno": "Eduardo Vargas",
     "goles": 45,
     "partidos": 119,
-    "fotos": "https://nikogarrido.github.io/TareaJugadores/Fotos/vargas.jpg"
+    "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/vargas.jpg"
     "estado": "activo"
     "años activo": null
   },
@@ -19,7 +19,7 @@
     "chileno": "Marcelo Salas",
     "goles": 37,
     "partidos": 70,
-    "fotos": "https://nikogarrido.github.io/TareaJugadores/Fotos/marcelosalas.jpg"
+    "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/marcelosalas.jpg"
     "estado": "retirado"
     "años activo": [1994,2007]
   },
@@ -27,7 +27,7 @@
     "chileno": "Iván Zamorano",
     "goles": 34,
     "partidos": 69,
-    "fotos": "https://nikogarrido.github.io/TareaJugadores/Fotos/zamorano.jpg"
+    "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/zamorano.jpg"
     "estado": "retirado"
     "años activo": [1987,2001]
   },
@@ -35,7 +35,7 @@
     "chileno": "Arturo Vidal",
     "goles": 34,
     "partidos": 144,
-    "fotos": "https://nikogarrido.github.io/TareaJugadores/Fotos/vidal.jpg"
+    "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/vidal.jpg"
     "estado": "activo"
     "años activo": null
   },
@@ -43,15 +43,15 @@
     "chileno": "Carlos Caszely",
     "goles": 29,
     "partidos": 49,
-    "fotos": "https://nikogarrido.github.io/TareaJugadores/Fotos/caszely.jpg"
+    "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/caszely.jpg"
     "estado": "retirado"
     "años activo": [1969-,1985]
   },
    {
     "chileno": "Leonel Sánchez",
     "goles": 24,
-    "partidos": 85,
-    "fotos": "https://nikogarrido.github.io/TareaJugadores/Fotos/l.sanchez.jpg"
+    "partido": 85,
+    "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/l.sanchez.jpg"
     "estado": "retirado"
     "años activo": [1956,1968]
   },
@@ -67,7 +67,7 @@
     "chileno": "Humberto Suazo",
     "goles": 21,
     "partidos": 60,
-    "fotos": "https://nikogarrido.github.io/TareaJugadores/Fotos/suazo.jpg"
+    "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/suazo.jpg"
     "estado": "activo"
     "años activo": null
   },
@@ -75,7 +75,7 @@
     "chileno": "Juan Carlos Letelier",
     "goles": 18,
     "partidos": 57,
-    "fotos": "https://nikogarrido.github.io/TareaJugadores/Fotos/JCLetelier.png"
+    "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/JCLetelier.png"
     "estado": "retirado"
     "años activo": [1979,1989]
   },

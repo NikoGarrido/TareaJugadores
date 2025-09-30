@@ -21,31 +21,31 @@
     <body>
         <main>
             <h1>Hola futbol!</h1>
-        <div id="goleadores"></div>
-    </main>
-    <script>
-        async function datos(raw) {
-            let consulta = await fetch(raw);
-            let data = await consulta.json();
-            console.log(data);
-            const marcador = document.querySelector("#goleadores");
-            data.forEach((d)=>{
-                marcador.innerHTML += `<div>
-                  <p>
-                    <img src="${d.Fotos}">
-                    ${d.chileno} :
-                    ${goldechile(d.goles)} :
-                    ${partidos(d.partidos)} :
-                    ${estado(d.estado)} :
-                    ${añosActivo(d["años activo"])} 
-                  </p>
-            </div>`;
-            })
+            <div id="goleadores"></div>
+        </main>
+        <script>
+            async function datos(raw) {
+                let consulta = await fetch(raw);
+                let data = await consulta.json();
+                console.log(data);
+                const marcador = document.querySelector("#goleadores");
+                data.forEach((d)=>{
+                    marcador.innerHTML += `<div>
+                      <p>
+                        <img src="${d.Fotos}">
+                        ${d.chileno} :
+                        ${goldechile(d.goles)} :
+                        ${partidos(d.partidos)} :
+                        ${estado(d.estado)} :
+                        ${añosActivo(d["años activo"])} 
+                      </p>
+                </div>`;
+                })
             
-        }
-        datos("https://raw.githubusercontent.com/NikoGarrido/TareaJugadores/refs/heads/main/jugadores.json").catch((error) => console.error(error));
-
-        function goldechile(g){
+            }
+            datos("https://raw.githubusercontent.com/NikoGarrido/TareaJugadores/refs/heads/main/jugadores.json").catch((error) => console.error(error));
+            
+            function goldechile(g){
             var pelotitas = "";
             for(var x = 0; x < g; x++){
                 pelotitas += "⚽ "
@@ -76,7 +76,7 @@
                     const inicio = a[0];
                     const fin = a[1];
                     const años = fin - inicio;
-                    return `Años activo: ${años} 🏅`
+                    return `Años activo: ${años}`
                 }
             }
         </script>

@@ -30,7 +30,16 @@
                 console.log(data);
                 const marcador = document.querySelector("#goleadores");
                 data.forEach((d)=>{
-                    marcador.innerHTML += `<div><p><img src="${d.fotos}"> ${d.chileno}:${goldechile(d.goles)}</p></div>`
+                    marcador.innerHTML += `<div>
+                    <p>
+                    <img src="${d.fotos}">
+                    ${d.chileno} :
+                    ${goldechile(d.goles)} :
+                    ${partidos(d.partidos)} :
+                    ${estado(d.estado)} :
+                    ${añosActivo(d["años activo"])} 
+                    </p>
+                </div>`
                 })
                 
             }
@@ -52,7 +61,7 @@
                 return estadios;
             }
             
-            function Estado(e){
+            function estado(e){
                 if(e == "activo"){
                     return "Estado actual :✔️"
                 } else if(e == "retirado"){
@@ -60,7 +69,7 @@
                 }
             }
 
-            function AñosActivo(a){
+            function añosActivo(a){
                 if(a== null){
                     return "Aun vigente"
                 }else {

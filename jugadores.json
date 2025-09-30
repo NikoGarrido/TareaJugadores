@@ -4,7 +4,7 @@
     "goles": 51,
     "partidos": 166,
     "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/alexis.jpg"
-    "estado": "Activo"
+    "estado": "Activo",
     "años activo": null
   },
   {
@@ -12,7 +12,7 @@
     "goles": 45,
     "partidos": 119,
     "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/vargas.jpg"
-    "estado": "activo"
+    "estado": "activo",
     "años activo": null
   },
   {
@@ -20,7 +20,7 @@
     "goles": 37,
     "partidos": 70,
     "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/marcelosalas.jpg"
-    "estado": "retirado"
+    "estado": "retirado",
     "años activo": [1994,2007]
   },
   {
@@ -28,7 +28,7 @@
     "goles": 34,
     "partidos": 69,
     "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/zamorano.jpg"
-    "estado": "retirado"
+    "estado": "retirado",
     "años activo": [1987,2001]
   },
   {
@@ -36,7 +36,7 @@
     "goles": 34,
     "partidos": 144,
     "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/vidal.jpg"
-    "estado": "activo"
+    "estado": "activo",
     "años activo": null
   },
   {
@@ -44,7 +44,7 @@
     "goles": 29,
     "partidos": 49,
     "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/caszely.jpg"
-    "estado": "retirado"
+    "estado": "retirado",
     "años activo": [1969-,1985]
   },
    {
@@ -52,7 +52,7 @@
     "goles": 24,
     "partido": 85,
     "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/l.sanchez.jpg"
-    "estado": "retirado"
+    "estado": "retirado",
     "años activo": [1956,1968]
   },
    {
@@ -60,7 +60,7 @@
     "goles": 22,
     "partidos": 37,
     "fotos": "https://nikogarrido.github.io/TareaJugadores/Fotos/Aravena.jpg"
-    "estado": "retirado"
+    "estado": "retirado",
     "años activo": [1983,1990]
   },
    {
@@ -68,7 +68,7 @@
     "goles": 21,
     "partidos": 60,
     "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/suazo.jpg"
-    "estado": "activo"
+    "estado": "activo",
     "años activo": null
   },
    {
@@ -76,7 +76,7 @@
     "goles": 18,
     "partidos": 57,
     "foto": "https://nikogarrido.github.io/TareaJugadores/Fotos/JCLetelier.png"
-    "estado": "retirado"
+    "estado": "retirado",
     "años activo": [1979,1989]
   },
 ]

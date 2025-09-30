@@ -43,6 +43,32 @@
                 }
                 return pelotitas;
             }
+            
+            function partidos(p){
+                var estadios
+                for (var x= 0; x < p; x++){
+                    estadios += "🏟️"
+                }
+                return estadios;
+            }
+            
+            function Estado(e){
+                if(e == "activo"){
+                    return "Estado actual :✔️"
+                } else if(e == "retirado"){
+                    return "Estado actual :❌"
+                }
+            }
+
+            function AñosActivo(a){
+                if(a== null){
+                    return "Aun vigente"
+                }else {
+                    const inicio = a[0];
+                    const final = a[1];
+                    const años = final - inicio;
+                    return 'Años Activo: ${años}'
+            }
         </script>
     </body>
 </html>

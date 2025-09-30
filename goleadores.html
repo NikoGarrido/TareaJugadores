@@ -44,7 +44,7 @@
                 
             }
             datos("https://raw.githubusercontent.com/NikoGarrido/TareaJugadores/refs/heads/main/jugadores.json").catch((error) => console.error(error));
-            
+
             function goldechile(g){
                 var pelotitas = "";
                 for(var x = 0; x < g; x++){
@@ -52,7 +52,7 @@
                 }
                 return pelotitas;
             }
-            
+
             function partidos(p){
                 var estadios = "";
                 for(var y = 0; y < p; y++){
@@ -60,18 +60,18 @@
                 }
                 return estadios;
             }
-            
+
             function estadoJugador(e){
                 if(e == "activo"){
-                    return "Estado actual :✔️"
+                    return "Estado actual: Vctivo✔️"
                 } else if (e == "retirado"){
-                    return "Estado actual :❌"
+                    return "Estado actual: Retirado❌"
                 }
             }
 
             function añosActivo(a){
                 if(a == null){
-                    return "sigue vigente"
+                    return "Vigente"
                 } else {
                     const inicio = a[0];
                     const fin = a[1];

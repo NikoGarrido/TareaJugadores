@@ -32,16 +32,16 @@
                 data.forEach((d)=>{
                     marcador.innerHTML += `<div>
                       <p>
-                        <img src="${d.foto}">
+                        <img src="${d.foto}"> 
                         ${d.chileno} :
                         ${goldechile(d.goles)} :
                         ${partidos(d.partidos)} :
                         ${estadoJugador(d.estado)} :
-                        ${añosActivo(d["años activo"])} 
+                        ${añosActivo(d["años activo"])}
                       </p>
                 </div>`;
                 })
-            
+                
             }
             datos("https://raw.githubusercontent.com/NikoGarrido/TareaJugadores/refs/heads/main/jugadores.json").catch((error) => console.error(error));
             
